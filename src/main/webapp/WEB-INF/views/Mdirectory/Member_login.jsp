@@ -3,12 +3,6 @@
          pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-<script>
-
-    var IMP = window.IMP; // 생략해도 괜찮습니다.
-    IMP.init("imp59762723"); // "imp00000000" 대신 발급받은 "가맹점 식별코드"를 사용합니다.
-
-</script>
 
 
 <div>
@@ -45,8 +39,6 @@
                 </c:otherwise>
             </c:choose>
         </center>
-
-        <hr width="50%" color="yellow"/>
 
         <input type="button" class="btn btn-group" value="회원가입" onclick="location.href='/member/rule'">
         <input type="button" class="btn btn-group" value="아이디 찾기" onclick="location.href='/member/find/id'">

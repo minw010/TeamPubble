@@ -72,7 +72,7 @@ pageEncoding="UTF-8" %>
 <div align="center">
     <div style="width:65%">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" onclick="location.href='/items?no=3'">
                     <h4 align="left">BEST상품</h4>
                     <hr class="hr1"/>
                     <img id="best-img" align="left" alt="Bootstrap Image Preview" src="./images/best.png" width="100%">

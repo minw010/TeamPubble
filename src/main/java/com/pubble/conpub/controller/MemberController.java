@@ -319,12 +319,12 @@ public class MemberController {
 
     }
 
-    @RequestMapping("/member/logout") // 로그아웃
+    @RequestMapping("/member/logout") // `로그아웃`
     public String memberLogout(HttpSession session) {
 
         session.invalidate();
 
-        return "index";
+        return "redirect:/";
     }
 
     @RequestMapping("/member/find/id") // 아이디 찾기
